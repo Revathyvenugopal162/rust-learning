@@ -3,10 +3,12 @@
 - Cargo is Rust’s build system and package manager
 
 # Basic Commands
+- cargo init PROJECT_NAME- Initialize a new Rust project in the current directory
 - cargo build: Compile the current project
 - cargo run: Compile and run the current project
 - cargo check: Check the current project for errors without producing an executable
 - cargo new <project_name>: Create a new Rust project
+- cargo test: Run tests for the current project
 
 # compile single files
 ```bash
@@ -47,11 +49,12 @@ if a < 100 {
 ```
 
 # loops
+
+## while loop
 ```
 let mut count = 0;
-loop {
+while count < 5 {
     count += 1;
-    if count == 5 {
-        break;
-    }
+    println!("count is: {}", count);
 }
+```
