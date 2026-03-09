@@ -58,3 +58,12 @@ while count < 5 {
     println!("count is: {}", count);
 }
 ```
+
+# types
+- i32: A 32-bit signed integer
+- f64: A 64-bit floating-point number
+- bool: A boolean value (true or false)
+- char: A single Unicode character
+- u32: A 32-bit unsigned integer
+- String: A growable, heap-allocated string """
+- char: A single Unicode character, represented as a 4-byte value ''
